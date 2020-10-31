@@ -1,7 +1,9 @@
 numpy
 scipy
-torch==1.6.0+cu101
-torchvision==0.7.0+cu101
-opencv-python
+Pillow
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.0+cu101
+torchvision==0.8.1+cu101
+opencv-python==4.2.0.34
 yacs
 tqdm
